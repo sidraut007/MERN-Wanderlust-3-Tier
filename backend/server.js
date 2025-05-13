@@ -31,7 +31,10 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+  // console.log(`Server is running on port ${port}`);
+  const protocol = process.env.HTTPS === 'true' ? 'https' : 'http';
+  const host = process.env.HOST || 'localhost';
+  console.log(`Server is running at ${protocol}://${host}:${port}`);
 });
 
 export default app;
