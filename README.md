@@ -41,7 +41,7 @@ cd MERN-Wanderlust-3-Tier/
 
 - Access Application on: http://localhost:5173
 
-## Data Insertion Into Database:
+- Data Insertion Into Database:
 ```bash
 docker cp ./backend/data/ mongo-service:/data/
 
