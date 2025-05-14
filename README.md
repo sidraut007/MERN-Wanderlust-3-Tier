@@ -39,7 +39,7 @@ cd MERN-Wanderlust-3-Tier/
 - We are using docker compose:
     - docker compose up -d 
 
-- Access Application on: ``` http://localhost:5173
+- Access Application on: http://localhost:5173
 
 ## Data Insertion Into Database:
 ```bash
