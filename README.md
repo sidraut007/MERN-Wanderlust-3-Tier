@@ -38,7 +38,7 @@ cd MERN-Wanderlust-3-Tier/
 
 - We are using docker compose:
 ```bash 
-    docker compose up -d 
+docker compose up -d 
 ```
 - Access Application on: http://localhost:5173
 
